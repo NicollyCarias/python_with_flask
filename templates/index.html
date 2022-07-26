@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1>
+    <font color="green">
+      Practicing python with Flask
+    </font>
+  </h1>
+
+  <p>
+    Lançado em 2010 e desenvolvido por Armin Ronacher, o Flask é um micro-framework destinado principalmente a pequenas aplicações com requisitos mais simples, como por exemplo, a criação de um site básico. Possui um núcleo simples e expansível que permite que um projeto possua apenas os recursos necessários para sua execução (conforme surja a necessidade, um novo pacote pode ser adicionado para incrementar as funcionalidades da aplicação).
+  </p>
+
+
+  <h1>
+    <font color="green">
+      {{ variavel }}
+    </font>
+  </h1>
+
+  <form action="{{ url_for('index') }}" method = "post">
+    <label for="">Number</label><br>
+    <input type="text" name="name" placeholder="Insira um numero" required>
+    <button>Enviar</button>
+  </form>
+  
+</body>
+</html>
